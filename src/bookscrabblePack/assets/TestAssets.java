@@ -1,10 +1,8 @@
-package bookscrabblePack.tests;
-import bookscrabblePack.Board;
-import bookscrabblePack.Tile;
-import bookscrabblePack.Word;
-import bookscrabblePack.Tile.Bag;
+package bookscrabblePack.assets;
 
-public class MainTrain {
+import bookscrabblePack.assets.Tile.Bag;
+
+public class TestAssets {
 	
 	public static void testBag() {
 		Bag b=Tile.Bag.getBag();

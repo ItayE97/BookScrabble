@@ -31,7 +31,7 @@ public class MyServer {
     private void run() throws Exception
     {
         ServerSocket server = new ServerSocket(port);
-        server.setSoTimeout(1000);
+        server.setSoTimeout(2000);
         while(!stopServer)
         {
             try {

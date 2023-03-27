@@ -1,4 +1,4 @@
-package bookscrabblePack;
+package bookscrabblePack.assets;
 import java.util.Random;
 
 public class Tile {

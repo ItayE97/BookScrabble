@@ -1,4 +1,4 @@
-package bookscrabblePack.tests;
+package bookscrabblePack.server;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,7 +9,9 @@ import java.net.Socket;
 import java.util.Random;
 import java.util.Scanner;
 
-public class MainTrain {
+import bookscrabblePack.cacheHandler.DictionaryManager;
+
+public class TestserverAndClient {
 	
 	public static class ClientHandler1 implements ClientHandler{
 		PrintWriter out;

@@ -1,9 +1,9 @@
-package bookscrabblePack.tests;
+package bookscrabblePack.cacheHandler;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
-public class MainTrain {
+public class TestCacheHandler {
 	
 	public static void testLRU() {
 		CacheReplacementPolicy lru=new LRU();
